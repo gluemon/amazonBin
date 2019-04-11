@@ -1,0 +1,343 @@
+body{
+	background:#f4f4f7;
+}
+section{
+	width:100%;
+	float:left;
+	background:white;
+}
+.gb_banner img{
+	width:100%;
+	float:left;
+}
+.gb_recommend>p{
+	width:100%;
+	float:left;
+	text-align:center;
+	border-bottom:1px solid rgb(240,240,240);
+	padding:0.5rem 0;
+}
+.gb_recommend>p img{
+	display:inline;
+	height:1.1rem;
+}
+.gb_recommend>div{
+	width:92%;
+	margin:0.5rem 4%;
+	float:left;
+}
+.gb_recommend>div dl[title=rate]{
+	width:30%;
+	float:left;
+}
+.gb_recommend>div dl[title=rate] dt{
+	width:100%;
+	float:left;
+	text-align:center;
+	color:#e9192e;
+	font-size:1.6rem;
+	font-weight:700;
+	margin:0.8rem 0 0.5rem 0;
+}
+.gb_recommend>div dl[title=rate] dd{
+	width:100%;
+	float:left;
+	text-align:center;
+	color:#9c9c9c;
+	font-size:0.8rem;
+}
+.gb_recommend>div dl[title=product]{
+	width:65%;
+	margin-left:5%;
+	float:left;
+}
+.gb_recommend>div dl[title=product] dt{
+	font-weight:700;
+}
+.mark{
+	background:none;
+	color:#e9192e;
+	border:1px solid #e9192e;
+	font-weight:normal;
+	font-size:0.8rem;
+	margin-left:0.5rem;
+	border-radius:5px;
+	padding:0 0.2rem;
+}
+.gb_recommend>div dl[title=product] dd p{
+	color:#5e6269;
+	font-size:0.8rem;
+	margin:0.3rem 0;
+}
+.gb_recommend>div dl[title=product] dd small{
+	font-size:0.7rem;
+	font-weight:bold;
+	color:#e9192e;
+}
+.star{
+	display:inline;
+	width:1rem;
+	position:relative;
+	top:2px;
+}
+.star2{
+	display:inline;
+	width:0.8rem;
+	position:relative;
+	margin-left:5px;
+}
+.gb_evaluation {
+	margin-top:0.5rem;
+}
+.gb_evaluation p{
+	width:84%;
+	float:left;
+	margin:1rem 4%;
+	background:url("../images/goldboard/evaluation.png") no-repeat;
+	background-size:auto 1.8rem;
+	height:1.8rem;
+	line-height:1.8rem;
+	background-position:left;
+	padding-left:12%;
+	font-weight:700;
+}
+.gb_evaluation p span{
+	color:#e9192e;
+	font-weight:700;
+}
+.gb_menu{
+	margin-top:0.5rem;
+	overflow:scroll;
+}
+.gb_menu  dl{
+	width:560px;
+	float:left;
+}
+.gb_menu dl dd{
+	float:left;
+	width:80px;
+	height:4rem;
+	line-height:4rem;
+}
+.yellow_bg{
+	background:url("../images/goldboard/yellow_bg.png") no-repeat;
+	background-size:100% 4rem;
+	background-position:center;
+}
+.gb_menu dl dd span{
+	position:relative;
+	top:-0.2rem;
+	font-weight:700;
+	width:100%;
+	text-align:center;
+	display:inline-block;
+}
+.gb_select{
+	background:none;
+}
+.gb_select div{
+	float:right;
+	position:relative;
+	width:50%;
+	margin-right:3%;
+}
+.gb_select div p {
+	padding:0.5rem 0;
+	margin-right:3%;
+	text-align:right;
+}
+.gb_select div p img{
+	width:1rem;
+	display:inline;
+	position:relative;
+	top:3px;
+}
+.gb_select div p span{
+	color:#9c9c9c;
+	font-size:0.8rem;
+	background:url("../images/goldboard/select_down.png") no-repeat;
+	background-size:0.8rem auto;
+	background-position:right;
+	padding-right:1.2rem;
+	
+}
+.gb_select div dl{
+	position:absolute;
+	top:3rem;
+	right:0;
+	width:7rem;
+	border-radius:5px;
+	display:none;
+	z-index:5;
+	background:url("../images/goldboard/arrow_up_white.png") no-repeat;
+	background-position:90% top;
+	background-size:auto 0.5rem;
+	
+}
+.gb_select div dl dt{
+	width:100%;
+	float:left;
+	background:none;
+	height:0.4rem;
+}
+.gb_select div dl dd{
+	background-color:white;
+	width:92%;
+	padding:0 4%;
+	float:left;
+	line-height:2rem;
+	font-size:0.8rem;
+	border-bottom:1px solid rgb(240,240,240);
+	text-align:center;
+}
+.gb_select div dl dd:first-of-type{
+	border-radius:5px 5px 0 0;
+}
+.gb_select div dl dd:last-of-type{
+	border:none;
+	border-radius:0 0 5px 5px;
+}
+.gb_caption dl{
+	width:94%;
+	padding:0.5rem 3%;
+	float:left;
+}
+.gb_caption dl dd{
+	float:left;
+	color:#9c9c9c;
+	font-size:0.8rem;
+}
+.gb_caption dl dd:nth-of-type(1),.board_product dd:nth-of-type(1){
+	width:45%;
+}
+.gb_caption dl dd:nth-of-type(2),.board_product dd:nth-of-type(2){
+	width:25%;
+	text-align:center;
+	
+}
+.board_product dd:nth-of-type(2){
+	line-height:2rem;
+}
+.gb_caption dl dd:nth-of-type(3){
+	width:27%;
+	text-align:right;
+	background:url("../images/goldboard/arrow_down.png") no-repeat;
+	background-size:auto 1rem;
+	background-position:right;
+	padding-right:3%;
+}
+.board_product dd:nth-of-type(3){
+	width:30%;
+	text-align:right;
+	color:#e9192e;
+	line-height:2rem;
+}
+.gb_board>div{
+	width:100%;
+	float:left;
+	border-top:1px solid rgb(240,240,240);
+}
+.gb_board>div>p[title=ranking]{
+	background:url("../images/goldboard/rank_bg.png") no-repeat;
+	background-size:4rem auto;
+	background-position:left;
+	color:white;
+	font-size:0.8rem;
+	line-height:1.5rem;
+	font-weight:700;
+	padding-left:5px;
+} 
+.gb_board>div>p[title=tag]{
+	width:94%;
+	padding:0 3%;
+	float:left;
+}
+.gb_board>div>p[title=tag] span{
+	background:#faeae8;
+	border-radius:5px;
+	color:#e9192e;
+	padding:0.2rem 0.4rem;
+	font-weight:bold;
+	font-size:0.8rem;
+}
+.gb_board>div>p[title=evaluation]{
+	width:94%;
+	margin:1rem 3% 0 3%;
+	float:left;
+	border-top:1px solid rgb(240,240,240);
+	padding:1rem 0;
+}
+.gb_board>div>p[title=evaluation] strong{
+	font-weight:700;
+	font-size:0.8rem;
+}
+.gb_board>div>p[title=evaluation] span{
+	color:#9c9c9c;
+	font-size:0.8rem;
+	font-size:0.8rem;
+	line-height:1.2rem;
+}
+.gb_board>div>p[title=evaluation] img{
+	display:inline;
+	margin:0 0.2rem;
+	width:1rem;
+	position:relative;
+	top:3px;
+}
+.board_product{
+	width:94%;
+	padding:0 3%;
+	float:left;
+	margin:0.5rem 0;
+}
+.board_product dd{
+	float:left;
+}
+.board_product dd{
+	font-weight:700;
+}
+.board_product dd[title=name] p{
+	font-weight:700;
+}
+.board_product dd[title=name] small{
+	font-weight:normal;
+	color:#9c9c9c;
+	font-size:0.8rem;
+}
+.gb_board_simple {
+	/*display:none;*/
+}
+.gb_board_simple dl.board_product{
+	border-top:1px solid rgb(240,240,240);
+	position:relative;
+	margin-top:0;
+	width:90%;
+	padding:0.5rem 5% 0 5%;
+}
+.mark2{
+	position:absolute;
+	top:0;
+	left:0;
+	background:url("../images/goldboard/rank_small_bg.png") no-repeat;
+	background-size:100%;
+	background-position:left top;
+	width:2.2rem;
+	height:2.2rem;
+	display:block;
+	font-size:0.6rem;
+	color:white;
+}
+.gb_board,.gb_board_simple{
+	position:relative;
+	
+}
+.cover{
+	position:absolute;
+	top:-2rem;
+	left:0;
+	background:rgba(0,0,0,0.3);
+	width:100%;
+	height:300px;
+	z-index:2;
+	display:none;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<!--step1:include both 'creepUpload.js' and 'creepUplaod.css'-->
+		<link rel="stylesheet" href="css/creepUpload.css"/>
+		<script src="js/jquery-1.9.1.js"></script>
+		<script src="js/creepUpload.js"></script>
+	</head>
+	<body>
+		<h1>photo upload</h1>
+		<input type="button" id="toUP" value="single"/>
+		<input type="button" id="toUP2" value="multi"/>
+		
+	</body>
+	<script>
+		$('#toUP2').on('click',function(){
+			showUploadMultiDom();
+		});
+		
+		function getMultiFileInfo(data){
+			for(var i in data){
+				$('body').append('<img src="'+data[i].path+'" width="200px"/>');
+			};
+			
+		};
+	
+	
+		//step2:set a event to show the uplaod Dom
+		
+		$('#toUP').on('click',function(){
+			showUploadDom("image","creep",function(data){
+				$('body').append('<img src="'+data.path+'" width="200px"/>');
+			});
+		});
+		function getFileInfo(data){
+			$('body').append('<img src="'+data.path+'" width="200px"/>');
+		};
+		
+		//step3:get the data about the file info
+		/*
+		 * data=={
+					extension:"image/jpeg",
+					path:"http://localhost/creepMVC/upload/20160811120519661.jpg",
+					size:526090,
+					storePath:"../../../upload/20160811120519661.jpg",
+					}
+		 * */
+		
+		
+	</script>
+</html>

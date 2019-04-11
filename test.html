@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+		<script src="js/jquery.js"></script>
+		<script>
+		$(document).on("ready",function(){
+			$.ajax({
+				type:"get",
+				url:"gs_proper.txt",
+				dataType:"text",
+				success:function(data){
+					data=data.replace(/\n/g,"<br/>");
+					console.log(data);
+					$("#content").html(data);
+				},
+			});
+		});
+		</script>
+	</head>
+	<body>
+		<input type="button" name="btn1" value="btn1"/>
+		<input type="button" name="btn2" value="btn2"/>
+		<input type="date" name="date1" value="">
+		<label for="bs02">122</label>
+		<div id="content"></div>
+	</body>
+</html>

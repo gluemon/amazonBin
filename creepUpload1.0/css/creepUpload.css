@@ -1,0 +1,88 @@
+.uploadFile{
+    font-family:"微软雅黑","Helvetica";
+    text-decoration:none;
+    font-weight:normal;
+    -webkit-appearance:none;
+    outline:none;
+    word-break:break-all;
+    word-wrap:break-word;
+	width:250px;
+	position:fixed;
+	background:rgb(245,245,245);
+	padding:1rem;
+	box-shadow:0 0 8px 2px rgb(230,230,230);
+}
+.uploadForm{
+	width:100%;
+	float:left;
+}
+.uploadForm div{
+	width:100%;
+	border:3px dotted rgb(220,220,220);
+	float:left;
+	padding:1rem 0;
+	position:relative;
+}
+.uploadForm div input[type=button]{
+	width:50%;
+	color:white;
+	border-radius:5px;
+	padding:0.5rem 1rem;
+	float:left;
+	margin:0 25% 0.5rem 25%;
+	border:none;
+	cursor:pointer;
+	font-family:"微软雅黑","Helvetica";
+}
+.selectBtn{
+	background:rgb(0,180,240);	
+}
+.uploadBtn{
+	background:#F15B3D;
+}
+.continueBtn{
+	background:gray;
+}
+#uploadBtnMulti{
+	margin:0 15% 0.5rem 0;
+}
+#continueBtnMulti{
+	margin:0 10% 0.5rem 15%;
+}
+.uploadForm div p{
+	color:gray;
+	text-align:center;
+	width:90%;
+	float:left;
+	font-size:0.7rem;
+	margin:0;
+	padding:0 5%;
+	overflow:hidden;
+}
+.uploadForm div dl{
+	color:gray;
+	width:90%;
+	float:left;
+	font-size:0.7rem;
+	margin:0;
+	padding:0 5%;
+	overflow:hidden;
+}
+.uploadForm div dl dt{
+	width:100%;
+	float:left;
+	text-align:center;
+}
+.uploadForm div dl dd{
+	width:100%;
+	float:left;
+	margin:5px 0 0 0;
+	padding:0;
+}
+.uploadForm div img{
+	width:2rem;
+	position:absolute;
+	right:-1rem;
+	top:-1rem;
+	cursor:pointer;
+}
